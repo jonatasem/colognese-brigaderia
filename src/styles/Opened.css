@@ -1,0 +1,74 @@
+.opened {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.opened h3 {
+    font-size: 2rem; /* Aumenta o tamanho da fonte para destaque */
+    color: #333;
+    margin: 15px 0;
+}
+
+.opened img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+    max-width: 800px;
+}
+
+.opened .descricao {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+.opened .preco {
+    font-size: 1.5rem; /* Tamanho maior para o preço */
+    color: #4caf50; /* Cor verde para destacar o preço */
+    margin: 10px 0;
+}
+
+.opened article {
+    min-height: 500px;
+    width: 100%; /* Garante que o artigo ocupe toda a largura disponível */
+}
+
+.link {
+    margin: 20px 0;
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #4a90e2; /* Cor azul para o link */
+    font-weight: bold; /* Destaca o link */
+}
+
+.link:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.container-voltar {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.container-voltar a {
+    padding: 1rem;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    color: black;
+}
+
+@media (max-width:1024px) {
+    .opened img {
+        max-width: 90%;
+    }
+}

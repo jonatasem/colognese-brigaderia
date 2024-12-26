@@ -1,0 +1,14 @@
+
+.container-footer {
+    padding: 1.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width:550px) {
+    .container-footer p {
+        font-size: 12px;
+    }
+}

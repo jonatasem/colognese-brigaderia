@@ -1,0 +1,78 @@
+.container-home {
+    text-align: center;
+    background-image: url(../assets/img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+}
+
+.banner {
+    margin-bottom: 30px;
+}
+
+.logo-container {
+    padding: 1.5rem;
+    background-color: #c0c0c080;
+    max-width: 800px;
+    margin: 0 auto 1.5rem;
+}
+.logo {
+    width: 100%;
+}
+
+.banner p {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.rede-social-home {
+    max-width: 50%;
+    margin: 0 auto 1rem;
+}
+.rede-social-home ul {
+    display: flex;
+    justify-content: space-around;
+}
+.rede-social-home ul li a {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    min-width: 130px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 5px silver;
+    text-decoration: none;
+}
+.rede-social-home ul li a:hover {
+    transform: scale(1.08);
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #a7a5a5;
+}
+.rede-social-home ul li img {
+    max-width: 25px;
+    margin-right: 0.5rem;
+}
+
+
+
+
+@media (max-width:1024px) {
+    .rede-social-home {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    .rede-social-home ul {
+        flex-wrap: wrap;
+    }
+    .rede-social-home ul li {
+        margin: 0.5rem;
+    }
+}

@@ -1,0 +1,35 @@
+.container-cardapio {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.container-cardapio h2,
+.container-cardapio h3 {
+    text-align: start;
+}
+h2 {
+    text-align: center;
+    color: #4a4a4a;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.sabores-list, .outras-delicias {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sabores-list li,
+.outras-delicias li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.outras-delicias li strong {
+    color: #4caf50; /* Cor verde para os preços */
+}
